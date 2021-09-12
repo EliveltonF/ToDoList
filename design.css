@@ -4,12 +4,14 @@
 }
 body {
     font-family: 'josefi';
-    background-image: url("images/bg-desktop-light.jpg");
+    background-image: url("images/bg-desktop-light.jpg"),linear-gradient(to bottom,white,white);
     background-repeat: no-repeat;
+    background-color: white;
     display: flex;
     
 }
 #main {
+
     margin: auto;
 }
 #intro {
@@ -61,6 +63,8 @@ body {
     width: 441px;
 }
 .tarefas {
+    background-color: white;
+    min-height: 355px;
     box-shadow: 0 0 1em rgba(128, 128, 128, 0.267);
 
 }
