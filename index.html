@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="design.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script type="text/javascript" src="script.js"></script>
+  <title>Frontend Mentor | Todo app</title>
+
+
+</head>
+
+<body>
+ 
+  <div id="main">
+    <div id="intro">
+      <h1>Todo</h1>
+      <div id="iconLuz"><img src="images/icon-sun.svg"></div>
+    </div>
+    <div id="newTarefa">
+      <form>
+        <div class="checkbox"></div><input id="texto" onclick="pegaTecla()" type="text"
+          placeholder="Create a new todo...">
+      </form>
+    </div>
+
+
+    <div class="tarefas" id="tarefas">
+
+
+    </div>
+    <div id="parteBaixo">
+      <div id="qtdItens">
+        <p id="left"><span id="span"></span>  items left</p>
+      </div>
+
+      <div id="estados">
+        <div id="all">All</div>
+        <div id="active">Active</div>
+        <div id="completed">Completed</div>
+      </div>
+
+      <div id="limpaCompleto">Clear Completed</div>
+    </div>
+
+    <div id="estranho"> Drag and drop to reorder list
+    </div>
+  </div>
+
+
+</body>
+
+</html>

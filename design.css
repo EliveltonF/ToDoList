@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'josefi';
+    src: url("JosefinSans-VariableFont_wght.ttf");
+}
+body {
+    font-family: 'josefi';
+    background-image: url("images/bg-desktop-light.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+#main {
+    margin: auto;
+}
+#intro {
+    display: flex;
+    align-items: center;
+}
+#intro {
+    margin-top: 25px;
+    width: 620px;
+}
+#intro > h1 {
+    letter-spacing: 15px;
+    font-size: 50px;
+    width: 100%;
+    color: white;
+}
+#newTarefa {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 20px;
+    display: flex;
+
+    height: 50px;
+    background-color: white;
+}
+.checkbox {
+    
+    margin-top: 13px;
+    border: 1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+#texto {
+    border:none;
+    display: flex;
+    
+    height: 28px;
+    width: 441px;
+    margin-top: -29px;
+    margin-left: 50px;
+}
+.text {
+    border:none;
+    display: flex;
+    
+    height: 28px;
+    width: 441px;
+}
+.tarefas {
+    box-shadow: 0 0 1em rgba(128, 128, 128, 0.267);
+
+}
+.tarefa2:hover {
+    background-color: whitesmoke;
+}
+.tarefa2 {
+    padding-left: 20px;
+    height: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.checkbox2 {
+    all:unset;
+    margin-top: -2px;
+    border: 1px solid rgba(148, 148, 148, 0.274);
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+.checkbox2:checked {
+    background-color: blueviolet;
+    
+    background-image: url('images/icon-check.svg'),linear-gradient(to bottom,blue,violet);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.tarefa2 > input[type = "checkbox"]:checked + p {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.74);
+}
+/*rapidao*/
+p {
+    width: 87%;
+    margin-left: 20px;
+    color: rgba(29, 25, 25, 0.747);
+}
+p:hover {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    height: 40px;
+    background-color: transparent;
+}
+.tarefa2:hover > div {
+    display: block;
+}
+
+.button {
+    display: none;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    color: transparent;
+    background-image: url("images/icon-cross.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#parteBaixo { 
+    border-top: 0px;
+    border-right: 1px solid rgba(128, 128, 128, 0.322);
+    border-left: 1px solid rgba(128, 128, 128, 0.322);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 50px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+#estados {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+#all {
+    color: grey;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+#all:hover {
+    font-weight: 900;
+    margin-left: 57.5px;
+    position: relative;
+    margin-top: -5px;
+    font-size: 18px;
+    color: grey;
+}
+#active {
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#active:hover {
+    font-weight: 900;
+    margin-left: 4.6px;
+    position: relative;
+    margin-top: -5px;
+    font-size: 18px;
+    color: grey;
+}
+#completed {
+    color: grey;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#completed:hover {
+    font-weight: 900;
+    margin-left: 5px;
+    position: relative;
+    margin-top: -5px;
+    font-size: 17px;
+    color: grey;
+}
+#limpaCompleto {
+    color: grey;
+}
+#limpaCompleto:hover {
+    font-weight: 900;
+    margin-left: -0.1px;
+    position: relative;
+    margin-top: -5px;
+    font-size: 16px;
+    color: grey;
+}
+#estranho {
+    color: rgb(104, 104, 104);
+    margin-top: 60px;
+    margin-left: 33%;
+}
+#left {
+    color: grey;
+}
+#left:hover {
+    font-weight: 900;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 0.3px;
+    font-size: 17px;
+    color: grey;
+}
