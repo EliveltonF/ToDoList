@@ -4,9 +4,8 @@
 }
 body {
     font-family: 'josefi';
-    background-image: url("images/bg-desktop-light.jpg"),linear-gradient(to bottom,white,white);
+    background-image: url("images/bg-desktop-light.jpg");
     background-repeat: no-repeat;
-    background-color: white;
     display: flex;
     
 }
