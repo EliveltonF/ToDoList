@@ -19,7 +19,8 @@ body {
 }
 #intro {
     margin-top: 25px;
-    width: 620px;
+    display:flex;
+    align-content: space-between;
 }
 #intro > h1 {
     letter-spacing: 15px;
